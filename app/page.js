@@ -71,7 +71,7 @@ export default function Home() {
       </div>
 
       {/* Locations Section */}
-      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-sm space-y-6 mt-10">
+      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-sm space-y-6 mt-10 mb-8">
         <h1 className="text-center text-xl font-semibold text-blue-800">
           Manzil (Filiallarimiz)
         </h1>
@@ -86,7 +86,7 @@ export default function Home() {
           <LocationOnIcon className="text-red-500 text-3xl" />
           <div>
             <h1 className="text-lg font-bold">AbuSaxiy Center</h1>
-            <p className="text-gray-600">1-qavat D-90 (6:00 - 18:00)</p>
+            <p className="text-gray-600">2-qavat B-77 (6:00 - 18:00)</p>
           </div>
         </div>
         <div className="flex items-start gap-4 p-3 rounded-lg hover:bg-gray-50 transition">
