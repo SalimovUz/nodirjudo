@@ -105,7 +105,7 @@
 //   );
 // }
 
-"use client"
+"use client";
 import Image from "next/image";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -211,6 +211,15 @@ export default function Home() {
               Lokatsiya
             </a>
           </div>
+        </div>
+        <div class="flex justify-center items-center ">
+          <a
+            href="https://t.me/regodev"
+            class="relative px-8 py-4 text-lg font-semibold text-white transition-all duration-300 transform bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-2xl hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-blue-300"
+          >
+            👨‍💻 Shunaqa sayt yaratish
+            <span class="absolute inset-0 w-full h-full transition-opacity opacity-0 rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:opacity-20"></span>
+          </a>
         </div>
       </div>
     </div>
